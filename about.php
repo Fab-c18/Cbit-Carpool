@@ -1,7 +1,7 @@
 <!DOCTYPE html>
 <html>
 <head>
-	<title>More Info</title>
+	<title>More Information</title>
 	<meta charset="utf-8">
     <meta name="description" content="CBIT CAR POOL">
     <meta name="keyword" content="car pool">
@@ -57,7 +57,7 @@
 	    </nav>
 	</div>
 	<div class="content">
-		<h2>CBIT CAR POOL SYSTEM</h2>
+		<h2>CBIT CAR POOL </h2>
 	</div>
 		<div id="para">
 		<p>Carpooling (also car-sharing, ride-sharing and lift-sharing) is the sharing of car journeys so that more than one person travels in a car, and prevents the need for others to have to drive to a location themselves.</p>
