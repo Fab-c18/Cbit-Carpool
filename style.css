@@ -1,0 +1,146 @@
+*{
+	margin:0;
+	padding:0;
+	box-sizing:border-box;
+	
+}
+body{
+	font-family: 'Nunito', sans-serif;
+}
+.header{
+	min-height:100vh;
+	width:100%;
+	background-image:url(Images/main.jpg);
+	background-position:center;
+	background-size:cover;
+	position:relative;
+	
+}
+.navbar{
+	display:flex;
+	align-items:center;
+	padding:20px;
+}	
+nav{
+	flex:1;
+	text-align:right;
+}
+nav ul{
+	display:inline-block;
+	list-style-type:none;
+}
+nav ul li{
+	display:inline-block;
+	margin-right:20px;
+	font-size:15px;
+}
+a{
+	text-decoration:none;
+	color:#000000;
+}
+p{
+	color:#000000;
+}
+.container{
+	max-width: 1300px;
+	margin:auto;
+	padding-left:25px;
+	padding-right:25px;
+}
+
+.banner-text{
+	position:absolute;
+	top:50%;
+	left:50%;
+	transform:translate(-50%,-50%);
+	text-align:center;
+	color:#000000;
+	width:90%;
+}
+.banner-text h1{
+	font-size:36px;
+	font-weight:bold;
+	margin-bottom:5px;
+	padding-top: 50px;
+}
+.banner-text p{
+	margin:10px 0 10px;
+	font-size:20px;
+	color:#000000;
+}
+.btn{
+	display:inline-block;
+	background:#52D452;
+	color:white;
+	padding:8px 50px;
+	margin: 30px 0;
+	border-radius:30px;
+	transition:0.5s;
+}
+.btn:hover{
+	background:#660000;
+}
+
+
+.small-container{
+	max-width:1080px;
+	margin:auto;
+	padding-left:25px;
+	padding-right:25px;
+}
+.row{
+	display:flex;
+	align-items:center;
+	flex-wrap:wrap;
+	justify-content:space-around;
+}
+.col-3{
+	flex-basis:30%;
+	padding:10px;
+	min-width:200px;
+	margin-bottom:50px;
+	transition:transform 0.5s;
+}
+.col-3 img{
+	width:100%;
+}
+.rating{
+	color:#ff1a1a;
+}
+.title{
+	text-align:center;
+	margin:0 auto 80px;
+	position:relative;
+	line-height:60px;
+}
+.title::after{
+	content:'';
+	background:#6666ff;
+	width:80px;
+	height:5px;
+	border-radius:5px;
+	position:absolute;
+	bottom:0;
+	left:50%;
+	transform:translate(-50%);
+}
+.col-3:hover{
+	transform:translateY(-5px);
+}
+.col-2{
+	flex-basis:40%;
+	padding:30px;
+	min-width:200px;
+	margin-bottom:50px;
+	transition:transform 0.2s;
+}
+.col-2 img{
+	width:100%;
+}
+.col-2:hover{
+	transform:translateY(-5px);
+}
+.text{
+	position:relative;
+	text-align:center;
+}
